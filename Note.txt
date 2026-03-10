@@ -1,0 +1,35 @@
+To Install typeScript open the terminal in vscode
+npm install -g typescript
+npx ts-node "lesson one/intro.ts"
+
+tsc intro.ts
+
+***********
+Type in typeScript
+1. Number
+2. String
+3. Boolean
+4. Null
+5. Undefined
+6. Void
+7. Object
+8. Array
+9. Tubles
+10 Never
+11 Unknown
+
+******** lesson two *****
+function
+Object
+Array
+union
+tuple
+Enums
+interface
+
+****** Lesson Three ****
+tsc --init
+npm init -y
+mkdir src dist
+tsc -w
+npm i lite-server
