@@ -21,4 +21,14 @@ interface Bottle {
   type: number;
 }
 
-identityFour<Bottle>({ brand: "Coca Cola", type: 1 });
+// identityFour<Bottle>({ brand: "Coca Cola", type: 1 });
+
+function getSearchProducts<T>(products: T[]): T {
+  const myIndex = 3;
+  return products[myIndex];
+}
+
+const getMoreSearchProducts = <T>(products: T[]): T => {
+  const myIndex = 4;
+  return products[myIndex];
+};
